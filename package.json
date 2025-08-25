@@ -1,9 +1,8 @@
 {
   "name": "idme-oidc-demo",
   "type": "module",
-  "scripts": {
-    "start": "node app.js"
-  },
+  "scripts": { "start": "node app.js" },
+  "engines": { "node": ">=18" },
   "dependencies": {
     "express": "^4.19.2",
     "jose": "^5.2.0"
